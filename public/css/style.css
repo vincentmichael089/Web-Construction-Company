@@ -57,6 +57,42 @@ footer{
 }
 
 /*body*/
+
+.scroll-top {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    text-decoration: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: orangered;
+    background: rgba(255, 74, 2, 0.7);
+    border: 0;    
+  }
+
+  .scroll-top:focus{
+    outline: #FDB302;
+  }
+
+  .scroll-top i {
+    display: inline-block;
+    color: #fff;
+    font-size: 19px;
+  }
+
+
+.scroll-top:hover{
+    background: orangered;
+}
+
+.scroll-top:hover i{
+    top: 5px;
+}
+
 .wide{
     min-height: 100vh;
 }
