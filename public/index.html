@@ -10,12 +10,13 @@
         crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-
+    <link rel="icon" type="image/png" href="/res/favicon.png" />
 </head>
 
 <body>
     <!-- =========== HEADER ========== -->
     <header>
+        <div class="bg-image"></div>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <div class="container">
@@ -27,13 +28,16 @@
                     <div class="navbar-collapse collapse align-middle" id="navbarCollapse" style="">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Beranda</a>
+                                <a class="nav-link js-scroll-trigger" href="#body-section-landing">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#body-section-about">Tentang </a>
+                                <a class="nav-link js-scroll-trigger" href="#body-section-bidang">Layanan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#body-section-porto">Portofolio </a>
+                                <a class="nav-link js-scroll-trigger" href="#body-section-about">Tentang </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="#body-section-porto">Portofolio </a>
                             </li>
                         </ul>
                     </div>
@@ -44,72 +48,77 @@
     <!-- ============================ -->
 
     <main role="main">
-        <!-- ====== SECTION LANDING ====== -->
-        <section id="body-section-landing">
-            <div class="container">
-                <div class="row featurette">
-                    <div class="first-featurette">
-                        <div class="col-md-7"data-aos="fade-up">
-                            <h1 class="featurette-heading">Discover your family’s story
-                            </h1>
-                            <h2>
-                                <span class="yellow-green">through historical records.​</span></h2>
-                            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
-                                id ligula porta felis euismod semper. Praesent commodo cursus magna, vel
-                                scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="container-scroll">
+            <!-- ====== SECTION LANDING ====== -->
+            <section id="body-section-landing" class="section">
+                <div class="container">
+                    <div class="row featurette">
+                        <div class="first-featurette">
+                            <div class="col-md-7" data-aos="fade-up">
+                                <h1 class="featurette-heading">Karya Demang Konstruksi
+                                </h1>
+                                <h2>
+                                    <span class="yellow-green" style="color: orangered">bersama membangun negri​</span></h2>
+                                <p class="lead" style="font-weight:600"> menjunjung tinggi profesionalisme dalam
+                                    bekerja
+                                    dengan menerapkan kemajuan
+                                    teknologi dan teknik industri dengan tujuan memberikan pelayanan jasa konstruksi
+                                    yang
+                                    bermutu, berkualitas, inovatif, dan handal.</p>
+                            </div>
+                            <div class="col-md-5"></div>
                         </div>
-                        <div class="col-md-5"></div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- ============================ -->
+            </section>
+            <!-- ============================ -->
 
-        <!-- ====== SECTION BIDANG ====== -->
-        <section id="body-section-bidang">
-            <div class="container">
-                <br>
-                <div class="row text-center">
-                    <div class="col-md-4 body-section-bidang-items" data-aos="fade-right">
-                        <img src="/res/bidang-generalconst.svg" style="max-width:85px" alt="">
-                        <div>
-                            <h4 class="body-section-bidang-h4"><br>General Contractor</h4>
-                            <p class="body-section-bidang-items-p lead lead-small">Pemborongan Konstruksi seperti
-                                Jalan,
-                                Jembatan,
-                                Gedung,
-                                Dermaga, Irigasi, Pabrik, Perumahan, Perkantoran, dan lainya.</p>
+            <!-- ====== SECTION BIDANG ====== -->
+            <section id="body-section-bidang" class="section">
+                <div class="container">
+                    <br>
+                    <div class="row text-center">
+                        <div class="col-md-4 body-section-bidang-items" data-aos="fade-up">
+                            <img src="/res/bidang-generalconst.svg" style="max-width:85px" alt="">
+                            <div>
+                                <h4 class="body-section-bidang-h4"><br>General Contractor</h4>
+                                <p class="body-section-bidang-items-p lead lead-small">Pemborongan Konstruksi seperti
+                                    Jalan,
+                                    Jembatan,
+                                    Gedung,
+                                    Dermaga, Irigasi, Pabrik, Perumahan, Perkantoran, dan lainya.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4  body-section-bidang-items" data-aos="fade-up">
-                        <img src="/res/bidang-supplier.svg" style="max-width:85px" alt="">
-                        <div>
-                            <h4 class="body-section-bidang-h4"><br>Supplier</h4>
-                            <p class="body-section-bidang-items-p lead lead-small">Pengadaan Barang /Supplier seperti
-                                Pengadaan Tanah,
-                                Batu,
-                                Pasir, Mekanikal, Elektrikal, dan lainya.</p>
+                        <div class="col-md-4  body-section-bidang-items" data-aos="fade-up">
+                            <img src="/res/bidang-supplier.svg" style="max-width:85px" alt="">
+                            <div>
+                                <h4 class="body-section-bidang-h4"><br>Supplier</h4>
+                                <p class="body-section-bidang-items-p lead lead-small">Pengadaan Barang /Supplier
+                                    seperti
+                                    Pengadaan Tanah,
+                                    Batu,
+                                    Pasir, Mekanikal, Elektrikal, dan lainya.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4  body-section-bidang-items" data-aos="fade-left">
-                        <img src="/res/bidang-plantation.svg" style="max-width:85px" alt="">
-                        <div>
-                            <h4 class="body-section-bidang-h4"><br>Plantation</h4>
-                            <p class="body-section-bidang-items-p lead lead-small">Plantation seperti Pembibitan,
-                                Penanaman, Perawatan
-                                tanaman
-                                perkebunan, dan lainya. </p>
+                        <div class="col-md-4  body-section-bidang-items" data-aos="fade-up">
+                            <img src="/res/bidang-plantation.svg" style="max-width:85px" alt="">
+                            <div>
+                                <h4 class="body-section-bidang-h4"><br>Plantation</h4>
+                                <p class="body-section-bidang-items-p lead lead-small">Plantation seperti Pembibitan,
+                                    Penanaman, Perawatan
+                                    tanaman
+                                    perkebunan, dan lainya. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            </div>
+        </div>
         </section>
         <!-- ============================ -->
 
         <!-- ====== SECTION ABOUT ======= -->
 
-        <section id="body-section-about">
+        <section id="body-section-about" class="section">
 
             <div class="container">
                 <h1 class="text-center">
@@ -161,15 +170,15 @@
         <!-- ============================ -->
 
         <!-- ====== SECTION PORTO ======= -->
-        <section id="body-section-porto">
+        <section id="body-section-porto" class="section">
             <div class="container">
                 <h1 class="text-center">
                     <div data-aos="fade-up"><span class="section-header" style="border-bottom-color: orangered">Portofolio</span></div>
                 </h1>
                 <br>
-                <div class="row text-left featurette">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8" data-aos="fade-up">
+                <div class="row text-left">
+
+                    <div class="col-lg-5 row-md-5" data-aos="fade-up">
                         <div class="bd-example">
                             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
@@ -216,110 +225,111 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2"></div>
 
-                </div>
-                <div class="rowtext-left featurette text-center">
-                    <div class="col-md-12" data-aos="fade-up">
-                        <table class="table table-striped table-dark">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Nama Proyek</th>
-                                    <th scope="col">Pemberi Pekerjaan</th>
+                    <div class="col-lg-7 row-md-7" data-aos="fade-up">
+                        <div class="row text-left">
+                            <div class="container table-porto">
+                                <table class="table table-striped table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" id="table-header">Daftar Proyek Terlaksana</th>
+                                        </tr>
+                                    </thead>
 
-                                </tr>
-                            </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Pemasangan Tiang Listrik Permanen dan Jaringan Instalasi Listrik</td>
+                                            <td>PT Bumi Mekar Hijau</td>
 
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Pemasangan Tiang Listrik Permanen dan Jaringan Instalasi Listrik</td>
-                                    <td>PT Bumi Mekar Hijau</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Pembuatan Bangunan Parit Sisir 25 Unit</td>
+                                            <td>PT Bumi Mekar Hijau</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Pembuatan Bangunan Parit Sisir 25 Unit</td>
-                                    <td>PT Bumi Mekar Hijau</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Pembuatan Pintu Klep Parit Sisir 78 Unit</td>
+                                            <td>PT Bumi Andalas Permai</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Pembuatan Pintu Klep Parit Sisir 78 Unit</td>
-                                    <td>PT Bumi Andalas Permai</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Pembuatan Pintu Klep Parit Sisir 10 Unit</td>
+                                            <td>PT Bumi Andalas Permai</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td>Pembuatan Pintu Klep Parit Sisir 10 Unit</td>
-                                    <td>PT Bumi Andalas Permai</td>
+                                        </tr>
 
-                                </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Pembuatan Pintu Klep 5 Pintu 2 Unit</td>
+                                            <td>PT Bumi Andalas Permai</td>
 
-                                <tr>
-                                    <th scope="row">5</th>
-                                    <td>Pembuatan Pintu Klep 5 Pintu 2 Unit</td>
-                                    <td>PT Bumi Andalas Permai</td>
+                                        </tr>
 
-                                </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Pembuatan Gorong-gorong Klep No.1 (1 Unit), 2 (1 Unit), 3 (1 Unit), 4
+                                                (1 Unit),
+                                                6 (2 Unit) </td>
+                                            <td>PT Bumi Mekar Hijau</td>
 
-                                <tr>
-                                    <th scope="row">6</th>
-                                    <td>Pembuatan Gorong-gorong Klep No.1 (1 Unit), 2 (1 Unit), 3 (1 Unit), 4 (1 Unit),
-                                        6 (2 Unit) </td>
-                                    <td>PT Bumi Mekar Hijau</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>Pembuatan Menara Api 30m, Distrik Simpang Tiga</td>
+                                            <td>PT Bumi Mekar Hijau</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">7</th>
-                                    <td>Pembuatan Menara Api 30m, Distrik Simpang Tiga</td>
-                                    <td>PT Bumi Mekar Hijau</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>Pembuatan Menara Api 30m, Distrik Kuala Lumpur</td>
+                                            <td>PT SBA Wood Industries</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">8</th>
-                                    <td>Pembuatan Menara Api 30m, Distrik Kuala Lumpur</td>
-                                    <td>PT SBA Wood Industries</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td>Pembuatan Menara Api 30m, Distrik Teluk Daun</td>
+                                            <td>PT SBA Wood Industries</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">9</th>
-                                    <td>Pembuatan Menara Api 30m, Distrik Teluk Daun</td>
-                                    <td>PT SBA Wood Industries</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td>Pembuatan Menara Api 30m, Distrik Sungai Gebang</td>
+                                            <td>PT Bumi Mekar Hijau</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">10</th>
-                                    <td>Pembuatan Menara Api 30m, Distrik Sungai Gebang</td>
-                                    <td>PT Bumi Mekar Hijau</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">11</th>
+                                            <td>Pembuatan Menara Api 30m, Distrik Sungai Ketupak</td>
+                                            <td>PT Bumi Mekar Hijau</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">11</th>
-                                    <td>Pembuatan Menara Api 30m, Distrik Sungai Ketupak</td>
-                                    <td>PT Bumi Mekar Hijau</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">12</th>
+                                            <td>Road Construction MR 10</td>
+                                            <td>PT Oki Pulp & Paper Mills</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">12</th>
-                                    <td>Road Construction MR 10</td>
-                                    <td>PT Oki Pulp & Paper Mills</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">13</th>
+                                            <td>Pembuatan Menara Api 25m 8 unit </td>
+                                            <td>PT Musi Hutan Persada</td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row">13</th>
-                                    <td>Pembuatan Menara Api 25m 8 unit </td>
-                                    <td>PT Musi Hutan Persada</td>
-
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <!-- ============================ -->
+        </div>
     </main>
     <!-- ========== FOOTER ========== -->
     <footer>
@@ -363,15 +373,29 @@
     <!-- ============================ -->
 
     <!-- ======== CDN SCRIPT ======== -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="/js/main.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="/js/scrolling-nav.js"></script>
+
+
     <!-- ============================ -->
+
+    <!-- FIREBASE-->
+    <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+
+    <script src="/js/main.js"></script>
+
+
 </body>
 
 </html>
