@@ -9,7 +9,7 @@ $('.carousel').carousel({
 })
 
 var config = {
-    apiKey: "AIzaSyBaSJdJhxb6kCHDYFEz4dbMroStERLz8P4",
+    apiKey: "api key",
     authDomain: "ptkdk-e4b96.firebaseapp.com",
     databaseURL: "https://ptkdk-e4b96.firebaseio.com",
     projectId: "ptkdk-e4b96",
